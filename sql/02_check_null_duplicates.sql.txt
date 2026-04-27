@@ -1,0 +1,12 @@
+-- Check NULL in sales table
+SELECT SUM(CASE WHEN order_id IS NULL THEN 1 ELSE 0 END) AS null_order_id,
+SUM(CASE WHEN product_id IS NULL THEN 1 ELSE 0 END) AS null_product_id,
+SUM(CASE WHEN customer_id IS NULL THEN 1 ELSE 0 END) AS null_customer_id,
+SUM(CASE WHEN revenue IS NULL THEN 1 ELSE 0 END) AS null_revenue
+FROM `hayow-481503.chocolate_sales.fact_sales`
+
+-- Check for duplicate order_id
+SELECT order_id, COUNT(*) AS count
+FROM `hayow-481503.chocolate_sales.fact_sales`
+GROUP BY order_id
+HAVING COUNT (*) > 1

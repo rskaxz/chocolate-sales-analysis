@@ -1,8 +1,8 @@
-Step 1 ·  Exploration
 --Check transaction date range
 SELECT MIN (order_date) AS earliest_order_date, 
 MAX(order_date) AS latest_order_date
 FROM `hayow-481503.chocolate_sales.fact_sales`
+
 -- Check distinct discount values
 SELECT DISTINCT discount
 FROM `hayow-481503.chocolate_sales.fact_sales`
