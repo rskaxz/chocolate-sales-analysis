@@ -2,11 +2,11 @@
 
 > Data Analytics Portfolio Project
 
-Dataset source: Chocolate Sales Dataset 2023 - 2024
+Dataset source: [Chocolate Sales Dataset 2023 - 2024](https://www.kaggle.com/datasets/ssssws/chocolate-sales-dataset-2023-2024)
 
 
 
-\---
+---
 
 
 
@@ -16,9 +16,9 @@ Identify key factors influencing revenue and profitability in a global chocolate
 
 
 
-\---
+---
 
-##### 
+
 
 ##### Key Business Questions
 
@@ -34,8 +34,7 @@ Identify key factors influencing revenue and profitability in a global chocolate
 
 
 
-\---
-
+---
 
 
 ##### Stakeholders
@@ -48,25 +47,19 @@ Identify key factors influencing revenue and profitability in a global chocolate
 
 
 
-\---
+---
 
 
 
 ##### Dataset Overview
 
-| Table | Rows | Description |
-
-|---|---|---|
-
-| sales.csv | 1,000,000 | Transaction fact table |
-
-| products.csv | 200 | Product dimension |
-
-| customers.csv | 50,000 | Customer dimension |
-
-| stores.csv | 100 | Store dimension |
-
-| calendar.csv | 731 | Date dimension |
+| Table        | Rows     | Description              |
+|--------------|----------|--------------------------|
+| sales.csv    | 1,000,000| Transaction fact table    |
+| products.csv | 200      | Product dimension         |
+| customers.csv| 50,000   | Customer dimension        |
+| stores.csv   | 100      | Store dimension           |
+| calendar.csv | 731      | Date dimension            |
 
 
 
@@ -76,8 +69,7 @@ Period: 2023–2024
 
 
 
-\---
-
+---
 
 
 ##### Tools Used
@@ -88,7 +80,7 @@ Period: 2023–2024
 
 
 
-\---
+---
 
 
 
@@ -110,13 +102,13 @@ Period: 2023–2024
 
 
 
-\---
+---
 
 
 
 ##### Dashboard Preview
 
-!\[Dashboard Preview] (assets/)
+![Dashboard Preview](assets/dashboard_chocolate_sales-1.png)
 
 > 4-page Power BI dashboard covering:
 
